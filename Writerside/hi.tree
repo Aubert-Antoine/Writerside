@@ -3,8 +3,13 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Help Instance"
-                 start-page="Default-topic.md">
+                 name="Projects Documentation"
+                 start-page="Home.md">
 
-    <toc-element topic="Default-topic.md"/>
+    <toc-element topic="Home.md"/>
+    <toc-element topic="Section-Starting-Page.topic"/>
+    <toc-element topic="Reference.md"/>
+    <toc-element topic="Tutorial.md"/>
+    <toc-element topic="How-to.md"/>
+    <toc-element topic="Overview.md"/>
 </instance-profile>
