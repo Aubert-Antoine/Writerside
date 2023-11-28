@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Writerside" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="registry.jetbrains.team/p/writerside/builder/writerside-builder:232.10165.1" />
+        <option name="containerName" value="" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
