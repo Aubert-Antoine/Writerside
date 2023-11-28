@@ -4,12 +4,11 @@
 
 <instance-profile id="hi"
                  name="Projects Documentation"
-                 start-page="Home.md">
+                 start-page="Home.topic">
 
-    <toc-element topic="Home.md"/>
-    <toc-element topic="Section-Starting-Page.topic"/>
-    <toc-element topic="Reference.md"/>
-    <toc-element topic="Tutorial.md"/>
-    <toc-element topic="How-to.md"/>
-    <toc-element topic="Overview.md"/>
+    <toc-element topic="Home.topic"/>
+    <toc-element topic="DataEngineerTools.md">
+        <toc-element topic="Scrapy.md"/>
+    </toc-element>
+    <toc-element topic="Anotherone.md"/>
 </instance-profile>
