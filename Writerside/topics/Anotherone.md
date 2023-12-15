@@ -14,6 +14,22 @@ tsetset
 sef
 s
 1. fesf
+2. sss
+
+
+## TAbs
+
+<tabs>
+    <tab title="Markdown">
+        <code-block lang="plain text">![Alt Text](new_topic_options.png){ width=450 }</code-block>
+    </tab>
+    <tab title="Semantic markup">
+        <code-block lang="xml">
+            <![CDATA[<img src="image.png" alt="Alt text" width="450px"/>]]></code-block>
+    </tab>
+</tabs>
+
+
 
 ## ebd
 <procedure title="Add something" id="procedure-id">
@@ -83,26 +99,32 @@ Collapsed by default
 
 You can reference [the JetBrains website][jb] multiple times
 and even use [different link text][jb] every time.
-Or reference an [anchor][anc].
 
 [jb]: https://www.jetbrains.com
 [anc]: #some-id
 
 ![Alt Text](image.png){ width="450" }
 
+
+<br/>
 ```tex
 \begin{equation}
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 \end{equation}
 ```
+<br/>
 
 
+
+<div style="text-align: center;">
 
 ```plantuml
 @startuml
 Bob->Alice : Hello!
 @enduml
 ```
+</div>
+
 
 ```mermaid
 graph LR
@@ -124,3 +146,17 @@ gitGraph
     commit
     commit
 ```
+
+## Inject XML {id="inject-a-procedure"}
+last 
+
+
+<seealso>
+    <category ref="wrs">
+        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/markup-reference.html">Markup reference</a>
+        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/manage-table-of-contents.html">Reorder topics in the TOC</a>
+        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/local-build.html">Build and publish</a>
+        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/configure-search.html">Configure Search</a>
+    </category>
+</seealso>
+
